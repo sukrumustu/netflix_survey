@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background-image: url(./background_image.jpg);
+
+}
+
+#container{
+/* border: 2px solid red; */
+margin: 15px 30px 15px 30px;
+background-color: rgba(0, 0, 0, 0.4);
+padding-top: 8px;
+
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-family: 'Bowlby One SC';
+    letter-spacing: 4px;
+
+}
+span{
+
+    color: red;
+    
+}
+
+h4{
+text-align: center;
+color: white;
+margin: auto;
+
+}
+
+#survey-form{
+/* border: 2px solid red; */
+margin: 10px 450px 0px 450px;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding-top: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-small;
+
+
+}
+
+.inputs{
+
+    padding: 0px 10px 10px 20px;
+
+}
+#name, #age, #email{
+
+    width: 260px;
+    height: 35px;
+    margin: auto;
+}
+#contenttype{
+    width: 240px;
+    height: 20px;
+    font-size: xx-small;
+
+}
+
+input::placeholder, textarea::placeholder{
+font-size: xx-small;
+
+}
+
+#movietype1, #gender1, #textarea1{
+
+    padding: 0px 10px 10px 20px;
+
+}
+
+#submit1{
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+#submitbutton{
+
+width: 80px;
+height: 25px;
+border-radius: 15px;
+border: none;
+background-color: red;
+color: white;
+}
+
+/* width: 160px;
+height: 45px;
+background-color: red;
+border: none;
+border-radius: 50px;
+color: white;
+cursor: pointer;
+font-size: 1rem; */
+
+
+
+
