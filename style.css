@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bowlby+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,31 +11,35 @@
 body{
 
 background-image: url(./background_image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 140vh;
 
 }
 
 #container{
-/* border: 2px solid red; */
-margin: 15px 30px 15px 30px;
-background-color: rgba(0, 0, 0, 0.4);
-padding-top: 8px;
+max-width: 1240px;
+/* height: 1036px; */
+margin: auto;
+margin-top: 30px;
+background-color: rgba(0, 0, 0, 0.3);
 
 }
-
-
 
 
 h1{
     text-align: center;
     color: white;
     margin: auto;
-    font-family: 'Bowlby One SC';
-    letter-spacing: 4px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 2px;
+    font-size: 3.1rem;
 
 }
 span{
 
-    color: red;
+    color: #ff0000;
     
 }
 
@@ -39,35 +47,46 @@ h4{
 text-align: center;
 color: white;
 margin: auto;
+font-family: 'Sorts Mill Goudy', serif;
 
+}
+
+textarea{
+resize: none;
 }
 
 #survey-form{
-/* border: 2px solid red; */
-margin: 10px 450px 0px 450px;
-color: white;
-background-color: rgba(0, 0, 0, 0.7);
-padding-top: 20px;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-size: x-small;
-
-
+    width: 500px;
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
 }
 
 .inputs{
+    margin-top: 10px;
+}
 
-    padding: 0px 10px 10px 20px;
+#name, #age, #email, #contenttype, textarea {
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
 
 }
-#name, #age, #email{
 
-    width: 260px;
-    height: 35px;
-    margin: auto;
+textarea{
+
+/* border: 2px solid red; */
+
 }
+#checkbox, #radio{
+    margin-top: 40px;
+}
+
 #contenttype{
-    width: 240px;
-    height: 20px;
+
     font-size: xx-small;
 
 }
@@ -77,35 +96,34 @@ font-size: xx-small;
 
 }
 
-#movietype1, #gender1, #textarea1{
 
-    padding: 0px 10px 10px 20px;
 
-}
+.submit1{
 
-#submit1{
+
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
     text-align: center;
-    padding-bottom: 15px;
 
 }
 #submitbutton{
 
-width: 80px;
-height: 25px;
-border-radius: 15px;
-border: none;
-background-color: red;
-color: white;
-}
-
-/* width: 160px;
+width: 160px;
 height: 45px;
-background-color: red;
-border: none;
 border-radius: 50px;
+border: none;
+background-color: red;
 color: white;
 cursor: pointer;
-font-size: 1rem; */
+}
+
+
+
+
+
+
+
 
 
 
