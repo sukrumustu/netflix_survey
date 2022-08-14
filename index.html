@@ -25,81 +25,64 @@
         <form action="result.html" method="get">
           <div class="inputs">
             <label for="name">Name</label>
-            <br /><br />
+            <br>
             <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-              required
+              type="text" name="name" id="name" placeholder="Enter your name" required
             />
           </div>
+         
           <div class="inputs">
             <label for="age">Age</label>
-            <br /><br />
-            <input
-              type="number"
-              name="age"
-              id="age"
-              placeholder="Age"
-              required
-            />
+            <br>
+            <input type="number" name="age" id="age" placeholder="Age" required/>
           </div>
+         
           <div class="inputs">
             <label for="email">Email</label>
-            <br /><br />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email" required/>
           </div>
+          
           <div class="inputs">
-            <label for="Content_type">Content type</label>
-            <br /><br />
+            <label for="content_type">Content Type</label>
+            <br>
             <select name="content_type" id="contenttype">
-              <option value="series">Series</option>
+              <option value="" disabled>None</option>
+              <option value="series" selected>Series</option>
               <option value="movies">Movies</option>
-              <option value="documentaries">Documentaries</option>
-              <option value="animation">Animation</option>
+              <option value="documentaries" disabled>Documentaries</option>
+              <!-- <option value="animation" hidden>Animation</option> -->
             </select>
           </div>
+          
           <div class="inputs">
             <p>Movie type</p>
 
-            <input type="checkbox" name="comedy" id="comedy" value="Comedy" />
-            <label for="comedy">Comedy</label><br />
-            <input type="checkbox" name="action" id="action" value="Action" />
-            <label for="action">Action</label><br />
-            <input type="checkbox" name="romance" id="romance" value="Romance"/>
+            <input type="checkbox" name="movie" id="comedy" value="Comedy" />
+            <label for="comedy">Comedy</label><br>
+            <input type="checkbox" name="movie" id="action" value="Action" />
+            <label for="action">Action</label><br>
+            <input type="checkbox" name="movie" id="romance" value="Romance"/>
             <label for="romance">Romance</label>
           </div>
 
-          <div id="gender1">
-            <p>Gender</p>
-
-            <input type="radio" name="gender" id="male" value="Male" />
-            <label for="male">Male</label><br />
-            <input
-              type="radio"
-              name="gender"
-              id="female"
-              value="Female"
-              checked
-            />
-            <label for="female">Female</label><br />
-            <input type="radio" name="gender" id="other" value="Other" />
+          <div class="inputs">
+            <label for="">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="male" value="Male"/>
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female" value="Female" checked/>
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other" value="Other"/>
             <label for="other">Other</label>
           </div>
 
           <div class="inputs">
-            <label for="feedback">Feed back</label> <br />
+            <label for="feedback">Feed back</label> <br>
             <textarea name="Feed back" placeholder="Any comment"></textarea>
           </div>
           <div class="submit1">
-            <input type="submit" value="Submit" id="submitbutton" />
+            <input type="submit" value="Submit" id="submitbutton"/>
           </div>
         </form>
       </div>
